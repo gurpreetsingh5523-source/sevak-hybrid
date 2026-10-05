@@ -1,0 +1,28 @@
+# Sevak-Hybrid: Beat Phi-4 Mini Configuration
+
+model_name: "Qwen/Qwen2.5-1.5B-Instruct"
+cache_dir: ".cache"
+output_dir: "runs/hybrid"
+
+device_map: "auto"
+torch_dtype: "bfloat16"
+
+# Generation settings
+max_new_tokens: 1024
+temperature: 0.2
+top_p: 0.95
+
+# Voting paths: start with 4, scale to 8/16 for benchmarks
+n_paths: 4
+
+# Agent tool loop
+max_steps: 3
+
+# Sandbox timeout (seconds)
+timeout: 8
+
+# Memory limit for sandbox (MB)
+sandbox_memory_mb: 512
+
+# Evaluation
+batch_size: 1
