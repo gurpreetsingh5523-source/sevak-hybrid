@@ -1,0 +1,5 @@
+{"config": "Qwen3-1.7B-4bit|cot|n1|t0.0|think", "n_q": 100, "acc": 0.71, "oracle": 0.71, "sec_per_q": 17.78}
+{"config": "Qwen2.5-1.5B-Instruct|cot|n8|t0.7", "n_q": 100, "acc": 0.81, "oracle": 0.9, "sec_per_q": 11.12}
+{"config": "Qwen3-1.7B-4bit|cot|n8|t0.7", "n_q": 100, "acc": 0.83, "oracle": 0.91, "sec_per_q": 7.58}
+{"config": "Phi-4-mini-instruct-4bit|cot|n8|t0.7", "n_q": 100, "acc": 0.87, "oracle": 0.96, "sec_per_q": 11.86}
+{"config": "Qwen2.5-1.5B-Instruct|pot|n1|t0.0", "n_q": 100, "acc": 0.66, "oracle": 0.66, "sec_per_q": 3.05}

@@ -181,6 +181,7 @@ def test_regressions():
     assert extract_number("18.0") == "18"
     assert extract_number("$1,234 dollars") == "1234"
     assert extract_number("no number") == ""
+    assert extract_number("9" * 400) == ""  # overflowed to inf, must not crash
     print("  extract_number: PASS")
 
     # MMLU: vote is lowercased, scoring must uppercase it
@@ -211,7 +212,21 @@ def test_regressions():
             return '{"tool": "python", "code": "print(16-3-4)"}'
 
     assert solve("q", ToolOnly(), cfg) == ["9"]
-    print("  Agent abstain on bad JSON: PASS\n")
+    print("  Agent abstain on bad JSON: PASS")
+
+    # PoT: notebook-style bare trailing expression still yields the answer
+    from src.solvers import run_program
+    assert run_program("```python\nx = 100\ny = x + 25\nx + y\n```") == "225"
+    assert run_program("```python\nprint(7)\n```") == "7"
+    print("  PoT auto-print last expression: PASS")
+
+    # Router: task detection
+    from src.router import detect_task
+    assert detect_task("Which is a noble gas?", ["O", "Ne", "N", "H"]) == "choice"
+    assert detect_task("def add(a, b):\n    \"\"\"Return a+b\"\"\"\n") == "code"
+    assert detect_task("Write a Python function that reverses a list") == "code"
+    assert detect_task("Tom has 3 apples and buys 5 more. How many?") == "math"
+    print("  Router task detection: PASS\n")
 
 
 def main():

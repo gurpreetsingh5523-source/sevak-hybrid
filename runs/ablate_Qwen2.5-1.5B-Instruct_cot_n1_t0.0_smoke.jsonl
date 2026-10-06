@@ -1,0 +1,5 @@
+{"i": 0, "gold": "400", "pred": "400", "cands": ["400"], "ok": true}
+{"i": 1, "gold": "25", "pred": "25", "cands": ["25"], "ok": true}
+{"i": 2, "gold": "3", "pred": "3", "cands": ["3"], "ok": true}
+{"i": 3, "gold": "800", "pred": "800", "cands": ["800"], "ok": true}
+{"i": 4, "gold": "5", "pred": "5", "cands": ["5"], "ok": true}

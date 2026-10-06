@@ -1,0 +1,3 @@
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|select|n8", "n_q": 64, "pass@1": 0.9688, "oracle": 0.9688, "sec_per_q": 9.3}
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|select|n8|off64", "n_q": 100, "pass@1": 0.7, "oracle": 0.83, "sec_per_q": 12.04}
+{"config": "he|Phi-4-mini-instruct-8bit|select|n8|off64", "n_q": 100, "pass@1": 0.66, "oracle": 0.8, "sec_per_q": 19.23}
