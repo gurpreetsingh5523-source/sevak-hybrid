@@ -1,0 +1,5 @@
+{"config": "sevak_off100_n200", "acc": 0.905, "high_conf_share": 0.83, "high_conf_acc": 0.988, "avg_rounds": 1.18, "sec_per_q": 23.41}
+{"config": "Phi-4-mini-instruct-8bit|cot|n1|t0.0|off100", "n_q": 200, "acc": 0.905, "oracle": 0.905, "sec_per_q": 6.3}
+{"config": "Phi-4-mini-instruct-8bit|cot|n8|t0.7|off100", "n_q": 200, "acc": 0.925, "oracle": 0.98, "sec_per_q": 13.17}
+{"config": "Qwen2.5-Math-1.5B-Instruct-bf16|cot|n8|t0.7|off100", "n_q": 200, "acc": 0.935, "oracle": 0.96, "sec_per_q": 10.56}
+{"config": "Qwen3-1.7B-bf16|cot|n8|t0.7|off100", "n_q": 200, "acc": 0.865, "oracle": 0.945, "sec_per_q": 11.04}

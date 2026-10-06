@@ -1,5 +1,6 @@
 """Answer normalization, extraction, and voting utilities."""
 
+import math
 import re
 from collections import Counter
 
@@ -40,7 +41,9 @@ def extract_number(x) -> str:
     nums = re.findall(r"-?\d+(?:\.\d+)?", normalize_answer(x))
     if not nums:
         return ""
-    n = float(nums[-1])
+    n = round(float(nums[-1]), 6)  # 57.599999999999994 -> 57.6
+    if not math.isfinite(n):  # absurdly long digit runs overflow to inf
+        return ""
     return str(int(n)) if n == int(n) else str(n)
 
 

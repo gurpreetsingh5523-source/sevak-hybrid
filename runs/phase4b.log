@@ -1,0 +1,2 @@
+{"config": "Phi-4-mini-instruct-8bit|cot|n1|t0.0", "n_q": 100, "acc": 0.84, "oracle": 0.84, "sec_per_q": 7.05}
+{"config": "Phi-4-mini-instruct-8bit|cot|n8|t0.7", "n_q": 100, "acc": 0.91, "oracle": 0.97, "sec_per_q": 13.84}

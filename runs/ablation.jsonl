@@ -1,0 +1,64 @@
+{"config": "Qwen2.5-1.5B-Instruct|json|n1|t0.0", "n_q": 100, "acc": 0.35, "oracle": 0.35, "sec_per_q": 8.29}
+{"config": "Qwen2.5-1.5B-Instruct|cot|n1|t0.0", "n_q": 100, "acc": 0.75, "oracle": 0.75, "sec_per_q": 7.69}
+{"config": "Qwen2.5-1.5B-Instruct|pot|n1|t0.0", "n_q": 100, "acc": 0.03, "oracle": 0.03, "sec_per_q": 2.96}
+{"config": "Qwen3-1.7B-4bit|cot|n1|t0.0", "n_q": 100, "acc": 0.74, "oracle": 0.74, "sec_per_q": 2.74}
+{"config": "Qwen3-1.7B-4bit|pot|n1|t0.0", "n_q": 100, "acc": 0.49, "oracle": 0.49, "sec_per_q": 0.89}
+{"config": "Qwen3.5-2B-4bit|cot|n1|t0.0", "n_q": 100, "acc": 0.73, "oracle": 0.73, "sec_per_q": 4.92}
+{"config": "Qwen3.5-2B-4bit|pot|n1|t0.0", "n_q": 100, "acc": 0.47, "oracle": 0.47, "sec_per_q": 1.83}
+{"config": "Phi-4-mini-instruct-4bit|cot|n1|t0.0", "n_q": 100, "acc": 0.79, "oracle": 0.79, "sec_per_q": 4.16}
+{"config": "Qwen3-1.7B-4bit|cot|n1|t0.0|think", "n_q": 100, "acc": 0.71, "oracle": 0.71, "sec_per_q": 17.78}
+{"config": "Qwen2.5-1.5B-Instruct|cot|n8|t0.7", "n_q": 100, "acc": 0.81, "oracle": 0.9, "sec_per_q": 11.12}
+{"config": "Qwen3-1.7B-4bit|cot|n8|t0.7", "n_q": 100, "acc": 0.83, "oracle": 0.91, "sec_per_q": 7.58}
+{"config": "Phi-4-mini-instruct-4bit|cot|n8|t0.7", "n_q": 100, "acc": 0.87, "oracle": 0.96, "sec_per_q": 11.86}
+{"config": "Qwen2.5-1.5B-Instruct|pot|n1|t0.0", "n_q": 100, "acc": 0.66, "oracle": 0.66, "sec_per_q": 3.05}
+{"config": "Qwen2.5-Math-1.5B-Instruct-bf16|cot|n1|t0.0|dbg", "n_q": 2, "acc": 1.0, "oracle": 1.0, "sec_per_q": 7.32}
+{"config": "Qwen3-1.7B-bf16|cot|n8|t0.7", "n_q": 100, "acc": 0.88, "oracle": 0.97, "sec_per_q": 11.53}
+{"config": "Qwen2.5-Math-1.5B-Instruct-bf16|cot|n1|t0.0", "n_q": 100, "acc": 0.85, "oracle": 0.85, "sec_per_q": 8.15}
+{"config": "Qwen2.5-Math-1.5B-Instruct-bf16|cot|n8|t0.7", "n_q": 100, "acc": 0.89, "oracle": 0.94, "sec_per_q": 10.62}
+{"config": "Qwen3-1.7B-bf16|cot|n1|t0.0", "n_q": 100, "acc": 0.8, "oracle": 0.8, "sec_per_q": 8.59}
+{"config": "Phi-4-mini-instruct-8bit|cot|n1|t0.0", "n_q": 100, "acc": 0.84, "oracle": 0.84, "sec_per_q": 7.05}
+{"config": "Phi-4-mini-instruct-8bit|cot|n8|t0.7", "n_q": 100, "acc": 0.91, "oracle": 0.97, "sec_per_q": 13.84}
+{"config": "sevak_off0_n3", "acc": 1.0, "high_conf_share": 1.0, "high_conf_acc": 1.0, "avg_rounds": 1.0, "sec_per_q": 26.95}
+{"config": "sevak_off100_n200", "acc": 0.905, "high_conf_share": 0.83, "high_conf_acc": 0.988, "avg_rounds": 1.18, "sec_per_q": 23.41}
+{"config": "Phi-4-mini-instruct-8bit|cot|n1|t0.0|off100", "n_q": 200, "acc": 0.905, "oracle": 0.905, "sec_per_q": 6.3}
+{"config": "Phi-4-mini-instruct-8bit|cot|n8|t0.7|off100", "n_q": 200, "acc": 0.925, "oracle": 0.98, "sec_per_q": 13.17}
+{"config": "Qwen2.5-Math-1.5B-Instruct-bf16|cot|n8|t0.7|off100", "n_q": 200, "acc": 0.935, "oracle": 0.96, "sec_per_q": 10.56}
+{"config": "Qwen3-1.7B-bf16|cot|n8|t0.7|off100", "n_q": 200, "acc": 0.865, "oracle": 0.945, "sec_per_q": 11.04}
+{"config": "mmlu|Qwen2.5-1.5B-Instruct|direct|n1|t0.0", "n_q": 5, "acc": 0.4, "sec_per_q": 0.17}
+{"config": "he|Qwen2.5-1.5B-Instruct|greedy|n1", "n_q": 4, "pass@1": 0.75, "oracle": null, "sec_per_q": 2.17}
+{"config": "he|Qwen2.5-1.5B-Instruct|select|n4", "n_q": 4, "pass@1": 0.75, "oracle": 0.75, "sec_per_q": 3.35}
+{"config": "mmlu|Qwen2.5-1.5B-Instruct|direct|n1|t0.0", "n_q": 100, "acc": 0.57, "sec_per_q": 0.18}
+{"config": "mmlu|Qwen2.5-1.5B-Instruct|cot|n1|t0.0", "n_q": 100, "acc": 0.53, "sec_per_q": 4.81}
+{"config": "he|Qwen2.5-1.5B-Instruct|greedy|n1", "n_q": 64, "pass@1": 0.7812, "oracle": null, "sec_per_q": 3.09}
+{"config": "mmlu|Qwen3-1.7B-bf16|direct|n1|t0.0", "n_q": 100, "acc": 0.4, "sec_per_q": 0.31}
+{"config": "mmlu|Qwen2.5-1.5B-Instruct|logit|n1|t0.0", "n_q": 20, "acc": 0.4, "sec_per_q": 0.12}
+{"config": "mmlu|Qwen3-1.7B-bf16|cot|n1|t0.0", "n_q": 100, "acc": 0.62, "sec_per_q": 6.48}
+{"config": "he|Qwen3-1.7B-bf16|greedy|n1", "n_q": 64, "pass@1": 0.8594, "oracle": null, "sec_per_q": 3.83}
+{"config": "mmlu|Qwen3.5-2B-MLX-bf16|direct|n1|t0.0", "n_q": 100, "acc": 0.55, "sec_per_q": 0.16}
+{"config": "mmlu|Qwen3.5-2B-MLX-bf16|cot|n1|t0.0", "n_q": 100, "acc": 0.62, "sec_per_q": 10.51}
+{"config": "he|Qwen3.5-2B-MLX-bf16|greedy|n1", "n_q": 64, "pass@1": 0.7031, "oracle": null, "sec_per_q": 5.86}
+{"config": "mmlu|Qwen2.5-Math-1.5B-Instruct-bf16|direct|n1|t0.0", "n_q": 100, "acc": 0.0, "sec_per_q": 0.28}
+{"config": "mmlu|Qwen2.5-Math-1.5B-Instruct-bf16|cot|n1|t0.0", "n_q": 100, "acc": 0.41, "sec_per_q": 9.79}
+{"config": "he|Qwen2.5-Math-1.5B-Instruct-bf16|greedy|n1", "n_q": 64, "pass@1": 0.3906, "oracle": null, "sec_per_q": 12.22}
+{"config": "mmlu|Qwen2.5-Coder-1.5B-Instruct-bf16|direct|n1|t0.0", "n_q": 100, "acc": 0.33, "sec_per_q": 0.15}
+{"config": "mmlu|Qwen2.5-Coder-1.5B-Instruct-bf16|cot|n1|t0.0", "n_q": 100, "acc": 0.47, "sec_per_q": 7.08}
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|greedy|n1", "n_q": 64, "pass@1": 0.9062, "oracle": null, "sec_per_q": 4.07}
+{"config": "mmlu|Phi-4-mini-instruct-8bit|direct|n1|t0.0", "n_q": 100, "acc": 0.62, "sec_per_q": 0.4}
+{"config": "mmlu|Phi-4-mini-instruct-8bit|cot|n1|t0.0", "n_q": 100, "acc": 0.64, "sec_per_q": 3.75}
+{"config": "he|Phi-4-mini-instruct-8bit|greedy|n1", "n_q": 64, "pass@1": 0.7656, "oracle": null, "sec_per_q": 4.57}
+{"config": "mmlu|Qwen2.5-1.5B-Instruct|logit|n1|t0.0", "n_q": 400, "acc": 0.5875, "sec_per_q": 0.08}
+{"config": "mmlu|Qwen3-1.7B-bf16|logit|n1|t0.0", "n_q": 400, "acc": 0.5375, "sec_per_q": 0.07}
+{"config": "mmlu|Qwen3.5-2B-MLX-bf16|logit|n1|t0.0", "n_q": 400, "acc": 0.57, "sec_per_q": 0.09}
+{"config": "mmlu|Qwen2.5-Math-1.5B-Instruct-bf16|logit|n1|t0.0", "n_q": 400, "acc": 0.2675, "sec_per_q": 0.06}
+{"config": "mmlu|Qwen2.5-Coder-1.5B-Instruct-bf16|logit|n1|t0.0", "n_q": 400, "acc": 0.435, "sec_per_q": 0.06}
+{"config": "mmlu|Phi-4-mini-instruct-8bit|logit|n1|t0.0", "n_q": 400, "acc": 0.62, "sec_per_q": 0.16}
+{"config": "mmlu|gate|tau0.7|off0", "n_q": 3, "acc": 0.6667, "escalated": 0.333, "sec_per_q_s2_only": 1.06}
+{"config": "mmlu|gate|tau0.7|off100", "n_q": 300, "acc": 0.7133, "escalated": 0.59, "sec_per_q_s2_only": 4.55}
+{"config": "mmlu|Phi-4-mini-instruct-8bit|cot|n1|t0.0|off100", "n_q": 300, "acc": 0.7067, "sec_per_q": 3.2}
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|select|n8", "n_q": 64, "pass@1": 0.9219, "oracle": 1.0, "sec_per_q": 6.13}
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|greedy|n1|off64", "n_q": 100, "pass@1": 0.59, "oracle": null, "sec_per_q": 4.42}
+{"config": "he|Phi-4-mini-instruct-8bit|greedy|n1|off64", "n_q": 100, "pass@1": 0.56, "oracle": null, "sec_per_q": 6.4}
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|select|n8|off64", "n_q": 100, "pass@1": 0.59, "oracle": 0.9, "sec_per_q": 7.84}
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|select|n8", "n_q": 64, "pass@1": 0.9688, "oracle": 0.9688, "sec_per_q": 9.3}
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|select|n8|off64", "n_q": 100, "pass@1": 0.7, "oracle": 0.83, "sec_per_q": 12.04}
+{"config": "he|Phi-4-mini-instruct-8bit|select|n8|off64", "n_q": 100, "pass@1": 0.66, "oracle": 0.8, "sec_per_q": 19.23}

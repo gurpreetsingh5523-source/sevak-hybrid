@@ -1,0 +1,3 @@
+{"i": 0, "gold": "C", "pred": "A", "s1_conf": 0.7088, "system": 1, "ok": false}
+{"i": 1, "gold": "B", "pred": "B", "s1_conf": 0.7383, "system": 1, "ok": true}
+{"i": 2, "gold": "A", "pred": "A", "s1_conf": 0.6475, "system": 2, "ok": true}

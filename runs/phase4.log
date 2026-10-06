@@ -1,0 +1,11 @@
+{"config": "Qwen2.5-Math-1.5B-Instruct-bf16|cot|n1|t0.0", "n_q": 100, "acc": 0.85, "oracle": 0.85, "sec_per_q": 8.15}
+{"config": "Qwen2.5-Math-1.5B-Instruct-bf16|cot|n8|t0.7", "n_q": 100, "acc": 0.89, "oracle": 0.94, "sec_per_q": 10.62}
+{"config": "Qwen3-1.7B-bf16|cot|n1|t0.0", "n_q": 100, "acc": 0.8, "oracle": 0.8, "sec_per_q": 8.59}
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://huggingface.co/api/models/mlx-community/Phi-4-mini-instruct-bf16/revision/main'
+    raise _format(RepositoryNotFoundError, message, response, repo_type=repo_type, repo_id=repo_id) from e
+huggingface_hub.errors.RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-6ac3353b-319573db779a08791d84f76c;07c70f92-ad04-4ded-90d7-e7b5f4326de8)
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 Not Found' for url 'https://huggingface.co/api/models/mlx-community/Phi-4-mini-instruct-bf16/revision/main'
+    raise _format(RepositoryNotFoundError, message, response, repo_type=repo_type, repo_id=repo_id) from e
+huggingface_hub.errors.RepositoryNotFoundError: 404 Client Error. (Request ID: Root=1-6ac3353d-3cf13584275fd2a468863766;147b9ddc-bdc3-4c66-aa9c-69231fdee07e)

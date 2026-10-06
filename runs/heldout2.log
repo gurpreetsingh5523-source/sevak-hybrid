@@ -1,0 +1,6 @@
+{"config": "mmlu|gate|tau0.7|off100", "n_q": 300, "acc": 0.7133, "escalated": 0.59, "sec_per_q_s2_only": 4.55}
+{"config": "mmlu|Phi-4-mini-instruct-8bit|cot|n1|t0.0|off100", "n_q": 300, "acc": 0.7067, "sec_per_q": 3.2}
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|select|n8", "n_q": 64, "pass@1": 0.9219, "oracle": 1.0, "sec_per_q": 6.13}
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|greedy|n1|off64", "n_q": 100, "pass@1": 0.59, "oracle": null, "sec_per_q": 4.42}
+{"config": "he|Phi-4-mini-instruct-8bit|greedy|n1|off64", "n_q": 100, "pass@1": 0.56, "oracle": null, "sec_per_q": 6.4}
+{"config": "he|Qwen2.5-Coder-1.5B-Instruct-bf16|select|n8|off64", "n_q": 100, "pass@1": 0.59, "oracle": 0.9, "sec_per_q": 7.84}
